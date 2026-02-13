@@ -2,7 +2,7 @@
 /*////           MAIN SETUP                //// */
 /*///////////////////////////////////////////// */
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -13,24 +13,29 @@ body{
     font-family: -apple-system, system-ui, sans-serif;
 }
 
-.mainCont{
+.mainCont {
     width: 100%;
     height: 100%;
-    background-color:#121212;
+    background-color: #121212;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2%;
 }
 
-.introCont{
+.introCont {
     width: 25%;
     height: 80%;
     border-radius: 20px;
     background-color: #1e1e1f;
+
+
+    /* https://codersblock.com/blog/creating-glow-effects-with-css/ */
     box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.3),
-    0 10px 20px rgba(0, 0, 0, 0.4);
+        0 0 50px #fff,
+        -10px 0 30px #b2ffff,
+        10px 0 80px #00ced1;
+        
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -38,43 +43,52 @@ body{
 
 }
 
-.projectCont{
+.projectCont {
     width: 60%;
     height: 80%;
     border-radius: 20px;
     background-color: #1e1e1f;
+
+    /* https://codersblock.com/blog/creating-glow-effects-with-css/ */
     box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.3),
-    0 10px 20px rgba(0, 0, 0, 0.4);
+        0 0 50px #fff,
+        -1px 0 30px #b2ffff,
+        10px 0 80px #00ced1;
+        /* 10px 0 80px #FF69B4; */
+
+    display: flex;
+    flex-direction: column;
 
 }
+
+
 
 /*///////////////////////////////////////////// */
 /*////           INTRO BOX                 //// */
 /*///////////////////////////////////////////// */
 
-.profile{
+.profile {
     width: 60%;
     height: 25%;
-    background-color:#333333;
+    background-color: #333333;
     box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.3),
-    0 10px 20px rgba(0, 0, 0, 0.4);
+        0 4px 6px rgba(0, 0, 0, 0.3),
+        0 10px 20px rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20%;
     border-radius: 20px;
-    
+
 }
 
-#profilePic{
+#profilePic {
     margin-top: 10%;
     width: 80%;
     height: auto;
 }
 
-.name{
+.name {
     width: 80%;
     height: auto;
     display: flex;
@@ -87,7 +101,7 @@ body{
     font-weight: bold;
 }
 
-.personalInfo{
+.personalInfo {
     margin-top: 10%;
     width: 80%;
     display: flex;
@@ -95,11 +109,60 @@ body{
     justify-content: center;
     text-align: justify;
     color: white;
-    font-size: 1rem;
+    font-size: 0.9rem;
 
 }
 
 
+
+/*///////////////////////////////////////////// */
+/*////           Project BOX               //// */
+/*///////////////////////////////////////////// */
+
+.projectTitle {
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.lineCont {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+
+.divideLine {
+    width: 70%;
+    height: 2px;
+    background-color: white;
+}
+
+.projectCardCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.project{
+    width: 30%;
+    height: 70%;
+    background-color: #333333;
+    border: #b2ffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 
 
