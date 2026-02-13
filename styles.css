@@ -1,0 +1,105 @@
+/*///////////////////////////////////////////// */
+/*////           MAIN SETUP                //// */
+/*///////////////////////////////////////////// */
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-family: -apple-system, system-ui, sans-serif;
+}
+
+.mainCont{
+    width: 100%;
+    height: 100%;
+    background-color:#121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.introCont{
+    width: 25%;
+    height: 80%;
+    border-radius: 20px;
+    background-color: #1e1e1f;
+    box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.3),
+    0 10px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: none;
+
+}
+
+.projectCont{
+    width: 60%;
+    height: 80%;
+    border-radius: 20px;
+    background-color: #1e1e1f;
+    box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.3),
+    0 10px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+/*///////////////////////////////////////////// */
+/*////           INTRO BOX                 //// */
+/*///////////////////////////////////////////// */
+
+.profile{
+    width: 60%;
+    height: 25%;
+    background-color:#333333;
+    box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.3),
+    0 10px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    border-radius: 20px;
+    
+}
+
+#profilePic{
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+}
+
+.name{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    border-radius: 20px;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.personalInfo{
+    margin-top: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+
+
+
