@@ -32,8 +32,8 @@ body {
 
     /* https://codersblock.com/blog/creating-glow-effects-with-css/ */
     box-shadow:
-        0 0 50px #fff,
-        -10px 0 30px #b2ffff,
+        0 0 10px #fff,
+        -10px 0 20px #b2ffff,
         10px 0 80px #00ced1;
 
     display: flex;
@@ -51,8 +51,8 @@ body {
 
     /* https://codersblock.com/blog/creating-glow-effects-with-css/ */
     box-shadow:
-        0 0 50px #fff,
-        -1px 0 30px #b2ffff,
+        0 0 10px #fff,
+        -1px 0 20px #b2ffff,
         10px 0 80px #00ced1;
     /* 10px 0 80px #FF69B4; */
 
