@@ -8,27 +8,55 @@ document.addEventListener('DOMContentLoaded', () => {
     const introCont = document.querySelector(".introCont");
     const projectCont = document.querySelector(".projectCont");
 
+    // Title text
+    var titleText = document.querySelector(".projectTitle");
+
+    // BackBTN
+    const BackBTN = document.getElementById("backBtn");
 
 
 
 
-
-
-    // Project Card Interactions
-    // Will loop through elements and add a class to the elements so we can get some smooth transitions
-    // Each project will also change the glow effect
     proj1BTN.addEventListener("click", function () {
+        titleText.textContent = "A Family of Buttons";
+        proj1BTN.style.display = "none";
+        proj2BTN.style.display = "none";
+        proj3BTN.style.display = "none";
+        BackBTN.style.display = "block";
+        projectCont.style.height = "auto";
 
 
     });
 
-    proj1BTN.addEventListener("click", function () {
+    proj2BTN.addEventListener("click", function () {
+        titleText.textContent = "Expertise Sharing";
+        proj1BTN.style.display = "none";
+        proj2BTN.style.display = "none";
+        proj3BTN.style.display = "none";
+        BackBTN.style.display = "block";
+        projectCont.style.height = "auto";
+
 
 
     });
 
-    proj1BTN.addEventListener("click", function () {
+    proj3BTN.addEventListener("click", function () {
+        titleText.textContent = "Augmented Eating Experience";
+        proj1BTN.style.display = "none";
+        proj2BTN.style.display = "none";
+        proj3BTN.style.display = "none";
+        BackBTN.style.display = "block";
+        projectCont.style.height = "auto";
 
+    });
+
+    BackBTN.addEventListener("click", function () {
+        titleText.textContent = "Projects";
+        proj1BTN.style.display = "flex";
+        proj2BTN.style.display = "flex";
+        proj3BTN.style.display = "flex";
+        BackBTN.style.display = "none";
+        projectCont.style.height = "80%";
 
     });
 
