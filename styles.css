@@ -62,8 +62,29 @@ body {
 
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 
 }
+
+/* Disable scroll bars */
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    scrollbar-width: none;
+}
+
+* {
+    -ms-overflow-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 
 
 
@@ -250,6 +271,21 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
+    color: white;
+
+}
+.projInfo h2{
+    margin-top: 5%;
+}
+
+.projInfo p{
+    margin-top: 0;
+    text-align: start;
+    width: 95%;
+
+}
+
+.projLinks{
     color: white;
 }
 
