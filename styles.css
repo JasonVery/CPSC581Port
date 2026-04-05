@@ -28,7 +28,7 @@ body {
 
 .introCont {
     width: 25%;
-    height: 80%;
+    height: 90%;
     border-radius: 20px;
     background-color: #1e1e1f;
 
@@ -48,7 +48,7 @@ body {
 
 .projectCont {
     width: 60%;
-    height: 80%;
+    height: 90%;
     border-radius: 20px;
     background-color: #1e1e1f;
     min-height: 80%;
@@ -73,7 +73,7 @@ body {
 
 .profile {
     width: 60%;
-    height: 25%;
+    height: 30%;
     background-color: #333333;
     box-shadow:
         0 4px 6px rgba(0, 0, 0, 0.3),
@@ -81,7 +81,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 15%;
     border-radius: 20px;
 
 }
@@ -98,7 +98,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
     border-radius: 20px;
     color: white;
     font-size: 2.5rem;
@@ -108,7 +108,7 @@ body {
 }
 
 .personalInfo {
-    margin-top: 10%;
+    margin-top: 5%;
     width: 80%;
     display: flex;
     align-items: center;
@@ -205,9 +205,10 @@ body {
     box-shadow:
         0 4px 6px rgba(0, 0, 0, 0.3),
         0 10px 20px rgba(0, 0, 0, 0.4);
-    
+}
 
-
+#proj3Photo, #proj2Photo{
+    object-fit: cover;
 }
 
 .projName {
@@ -236,4 +237,21 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+
+/*///////////////////////////////////////////// */
+/*////           Project Info              //// */
+/*///////////////////////////////////////////// */
+#proj1Info, #proj2Info, #proj3Info {
+    display: none;
+}
+
+.projInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    color: white;
+}
+
+
 
