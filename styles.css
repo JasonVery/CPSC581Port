@@ -146,10 +146,10 @@ html {
 /*////           Project BOX               //// */
 /*///////////////////////////////////////////// */
 
-.topBarCont{
+.topBarCont {
     display: flex;
     align-items: center;
-   
+
 }
 
 .projectTitle {
@@ -173,7 +173,7 @@ html {
     cursor: pointer;
 }
 
-#backBtn:hover{
+#backBtn:hover {
     transform: translateY(2.5px);
 }
 
@@ -228,7 +228,8 @@ html {
         0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
-#proj3Photo, #proj2Photo{
+#proj3Photo,
+#proj2Photo {
     object-fit: cover;
 }
 
@@ -253,7 +254,9 @@ html {
 
 }
 
-#proj1, #proj2, #proj3 {
+#proj1,
+#proj2,
+#proj3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,31 +266,96 @@ html {
 /*///////////////////////////////////////////// */
 /*////           Project Info              //// */
 /*///////////////////////////////////////////// */
-#proj1Info, #proj2Info, #proj3Info {
+#proj1Info,
+#proj2Info,
+#proj3Info {
     display: none;
 }
 
-.projInfo{
+.projInfo {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
     color: white;
 
 }
-.projInfo h2{
+
+.projInfo h2 {
     margin-top: 5%;
 }
 
-.projInfo p{
+.projInfo p {
     margin-top: 0;
     text-align: start;
     width: 95%;
 
 }
 
-.projLinks{
+.projLinks {
     color: white;
 }
 
+.picturesAndInfoCont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    gap: 40px;
+}
 
+.evidenceItem {
+    width: 95%;
+    background-color: #333333;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.3),
+        0 10px 20px rgba(0, 0, 0, 0.4);
+}
 
+.topPhotosDouble {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 5%;
+}
+
+.evidenceImgDouble {
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.3),
+        0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.evidenceImgSingle{
+    width: 90%;
+    height: 400px;
+        border-radius: 20px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.3),
+        0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.captionCont {
+    width: 90%;
+    background-color: #1e1e1f;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.3),
+        0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.caption {
+    padding: 5%;
+    text-align: justify;
+}
